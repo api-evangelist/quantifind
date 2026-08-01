@@ -1,7 +1,17 @@
 aid: quantifind
 name: Quantifind
-description: Quantifind is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Quantifind is a financial crimes automation company founded in 2009 by physicists Ari
+  Tuchman and John Stockton to extract meaningful risk signals from large, unstructured
+  datasets. Its flagship SaaS platform, Graphyte, applies machine learning, natural language
+  processing, and entity resolution to anti-money laundering (AML) and know-your-customer
+  (KYC) compliance. Graphyte spans watchlist and sanctions screening, adverse media
+  screening, enhanced due diligence, credit risk, and investigations, and is delivered
+  through GraphyteSearch (an investigation application), GraphyteQueue (an AI-native case
+  manager), GraphyteAPI (a synchronous REST risk-assessment API), and GraphyteBatch (batch
+  screening). Quantifind serves Tier 1 and regional banks, digital banks, Fortune 50
+  companies, and federal and defense agencies, and integrates with case-management systems
+  such as Oracle FCCM. Backed by a16z.
 url: https://raw.githubusercontent.com/api-evangelist/quantifind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,55 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+image: https://www.quantifind.com/wp-content/uploads/2024/06/new-embed-preview.jpeg
 tags:
 - Company
+- Financial Crime
+- AML
+- KYC
+- Compliance
+- Risk Intelligence
+- Sanctions Screening
+- Adverse Media
+- Entity Resolution
+- Machine Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/quantifind-domain-security.yml
+- type: Website
+  url: https://www.quantifind.com/
+- type: Blog
+  url: https://www.quantifind.com/resource-type/blog/
+- type: BlogRSS
+  url: https://www.quantifind.com/feed/
+- type: Login
+  url: https://signum.quantifind.com/
+- type: Support
+  url: https://www.quantifind.com/contact/
+- type: PrivacyPolicy
+  url: https://www.quantifind.com/privacy-policy/
+- type: About
+  url: https://www.quantifind.com/about/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
