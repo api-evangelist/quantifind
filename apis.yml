@@ -49,6 +49,17 @@ tags:
 - Sanctions Screening
 - Adverse Media
 - Entity Resolution
+- Machine-Learning
+tags_raw:
+- Company
+- Financial Crime
+- AML
+- KYC
+- Compliance
+- Risk Intelligence
+- Sanctions Screening
+- Adverse Media
+- Entity Resolution
 - Machine Learning
 apis: []
 common:
