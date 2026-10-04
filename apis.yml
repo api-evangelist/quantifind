@@ -60,7 +60,7 @@ tags:
 - Sanctions Screening
 - Adverse Media
 - Entity Resolution
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Financial Crime
@@ -72,6 +72,7 @@ tags_raw:
 - Adverse Media
 - Entity Resolution
 - Machine Learning
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
